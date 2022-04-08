@@ -48,7 +48,7 @@ def write_to_file(output_, main_user_):
         text_in_file.write(output_str)
 
 
-path = "input_10.txt"
+path = "input.txt"
 info = read_from_file(path)
 main_user = int(input("Input number of user:"))
 number_of_users = info[0][0]
