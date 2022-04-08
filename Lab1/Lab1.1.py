@@ -20,7 +20,6 @@ def bubble_sort(arr):
     print("Count of comparisons: ", count_of_comparisons)
 
 
-
 A = list(range(10000))
 # random.shuffle(A)
 # print(A)
