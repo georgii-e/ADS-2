@@ -27,7 +27,6 @@ def comb_sort(arr):
     print("Count of swaps: ", count_of_swaps)
     print("Count of comparisons: ", count_of_comparisons)
 
-
 A = list(range(50000))
 random.shuffle(A)
 # print(A)

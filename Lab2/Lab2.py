@@ -39,7 +39,7 @@ def read_from_file(path_):
 
 
 def write_to_file(output_, main_user_):
-    path_ = "Lab2/IP_12_Vasiliev_output.txt"
+    path_ = "Lab2/ip_12_Vasiliev_output.txt"
     output_str = str(main_user_) + "\n"
     for i in range(len(output_)):
         output_str += " ".join(map(str, output_[i])) + "\n"
